@@ -6,23 +6,23 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #1
-cl.login(qr=True)
+cl.login(token="End0fJv6SusVzvJz0fVe.bOTC2IBDL8BwdKUZ4SkftG.NWeQ06+N0T2DQiLbolAHJFYiIhVXnCsVu+WATodKG0g=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #2
-ki.login(qr=True)
+ki.login(token="EntGaSAiAoDzyx4xmax0.wxLQjca/qOfH5UHGqJVgia.13IEiE1N+IlaNNzTKSFVRWNVpqi+VBvvUlG2GJBbmrs=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #3
-kk.login(qr=True)
+kk.login(token="EnCugJDE9UmG3Tx4cxe5.Jzp7mX9sKs1Ksb+V4dt+Tq.M/5FQ2BVRLci21F+5kJJcuklPsbljJEiGNeExLJ2rIc=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #4
-kc.login(qr=True)
+kc.login(token="EnDT9Iq2CZUa84QGktAf.OEkOkzOgvZEfjTXt6IvAlW.K85ozCox1Ts7uL4q+otPc0aF7JffwnVJX9555ZkRCZQ=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #5
-ks.login(qr=True)
+ks.login(token="EnL6uqkdL5vGAzJe9fAa.zQSghcJqOX9okB7XRV/hoG.wXIj6haPPx0mZIduCaoBT2ZOKLHgKtI7qzCSgzK14J4=")
 ks.loginResult()
 
 print "login success"
@@ -76,8 +76,8 @@ Cmid = kc.getProfile().mid #4
 Dmid = ks.getProfile().mid #5
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid]
-admin=["u4843bca56f19fd29c1ad040f7fdd80dc"] 
-owner=["u4843bca56f19fd29c1ad040f7fdd80dc"]
+admin=["u4843bca56f19fd29c1ad040f7fdd80dc","uu6c73876821feaef60e5ed7a2909f4952"] 
+owner=["u4843bca56f19fd29c1ad040f7fdd80dc","uu6c73876821feaef60e5ed7a2909f4952"]
 whitelist=[""]
 wait = {
     'contact':False,
