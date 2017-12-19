@@ -10,7 +10,7 @@ cl.login(token="End0fJv6SusVzvJz0fVe.bOTC2IBDL8BwdKUZ4SkftG.NWeQ06+N0T2DQiLbolAH
 cl.loginResult()
 
 ki = LINETCR.LINE() #2
-ki.login(token="Enbf9LQcNDSbdDOjeLJ7.iKT6G/SOx222zSniZvVdjW.9SI/YtphMixDw8h7fyib/ibHcyz4UR6i9RCr8kBkLKU=")
+ki.login(token="EnL6uqkdL5vGAzJe9fAa.zQSghcJqOX9okB7XRV/hoG.wXIj6haPPx0mZIduCaoBT2ZOKLHgKtI7qzCSgzK14J4=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #3
@@ -22,7 +22,7 @@ kc.login(token="EnDT9Iq2CZUa84QGktAf.OEkOkzOgvZEfjTXt6IvAlW.K85ozCox1Ts7uL4q+otP
 kc.loginResult()
 
 ks = LINETCR.LINE() #5
-ks.login(token="EnL6uqkdL5vGAzJe9fAa.zQSghcJqOX9okB7XRV/hoG.wXIj6haPPx0mZIduCaoBT2ZOKLHgKtI7qzCSgzK14J4=")
+ks.login(token="Enbf9LQcNDSbdDOjeLJ7.iKT6G/SOx222zSniZvVdjW.9SI/YtphMixDw8h7fyib/ibHcyz4UR6i9RCr8kBkLKU=")
 ks.loginResult()
 
 print "login success"
