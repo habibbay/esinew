@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #1
-cl.login(token="End0fJv6SusVzvJz0fVe.bOTC2IBDL8BwdKUZ4SkftG.NWeQ06+N0T2DQiLbolAHJFYiIhVXnCsVu+WATodKG0g=")
+cl.login(token="EnL6uqkdL5vGAzJe9fAa.zQSghcJqOX9okB7XRV/hoG.wXIj6haPPx0mZIduCaoBT2ZOKLHgKtI7qzCSgzK14J4=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #2
@@ -22,10 +22,10 @@ kc.login(token="EnDT9Iq2CZUa84QGktAf.OEkOkzOgvZEfjTXt6IvAlW.K85ozCox1Ts7uL4q+otP
 kc.loginResult()
 
 ks = LINETCR.LINE() #5
-ks.login(token="Enbf9LQcNDSbdDOjeLJ7.iKT6G/SOx222zSniZvVdjW.9SI/YtphMixDw8h7fyib/ibHcyz4UR6i9RCr8kBkLKU=")
+ks.login(token="EnDT9Iq2CZUa84QGktAf.OEkOkzOgvZEfjTXt6IvAlW.K85ozCox1Ts7uL4q+otPc0aF7JffwnVJX9555ZkRCZQ=")
 ks.loginResult()
 
-print "login success"
+print "login success bun... jgn kasih tau orang ya ip sama password nya.. ni 3 bot ya ! "
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -76,8 +76,8 @@ Cmid = kc.getProfile().mid #4
 Dmid = ks.getProfile().mid #5
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid]
-admin=["u4843bca56f19fd29c1ad040f7fdd80dc","uu6c73876821feaef60e5ed7a2909f4952","u033e3506ae38d47224ada63497dcc837"] 
-owner=["u4843bca56f19fd29c1ad040f7fdd80dc","uu6c73876821feaef60e5ed7a2909f4952","u033e3506ae38d47224ada63497dcc837"]
+admin=["u4843bca56f19fd29c1ad040f7fdd80dc","u1723e003eee84b9f60288bd998356b93"] 
+owner=["u4843bca56f19fd29c1ad040f7fdd80dc","u1723e003eee84b9f60288bd998356b93"]
 whitelist=[""]
 wait = {
     'contact':False,
