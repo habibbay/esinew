@@ -25,12 +25,12 @@ ks = LINETCR.LINE() #5
 ks.login(token="EnDT9Iq2CZUa84QGktAf.OEkOkzOgvZEfjTXt6IvAlW.K85ozCox1Ts7uL4q+otPc0aF7JffwnVJX9555ZkRCZQ=")
 ks.loginResult()
 
-print "login success bun... jgn kasih tau orang ya ip sama password nya.. ni 3 bot ya ! "
+print "login success bun...  "
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""Protect now
-Owner : ✰Bieb ciluk✰
+Owner : ✰esi ini mah✰
 -==================-
 ◄]·♦·Menu For Public·♦·[►
 [•]Adminlist
@@ -45,7 +45,7 @@ Owner : ✰Bieb ciluk✰
 [•]「Buka/Tutup」qr
 [•]Mid Bot
 [•]Speed/Sp
-[•]「Cctv/Ciduk」
+[•]「Assalamualaikum/Cctv」
 [•]Status/Set
 [•]Gurl
 [•]Jam「On/Off」
@@ -55,7 +55,7 @@ Owner : ✰Bieb ciluk✰
 >>[Perintah Proteksi]<<
 👑Hanya Untuk Owner👑
 -==================-
-  == CILUK BOT ==
+  == Bot nya esi ini mah ==
 -==================-
 """
 KAC=[cl,ki,kk,kc,ks]
@@ -1648,9 +1648,9 @@ def bot(op):
                     kc.sendText(msg.to,"Aktifkan jam terlebih dulu")
         #-------------Fungsi Jam Update Finish-------------------#
 
-            elif msg.text == "Cctv":
+            elif msg.text == "Assalamualaikum":
               if msg.from_ in admin:
-                cl.sendText(msg.to, "Command Received...")
+                cl.sendText(msg.to, "Waalaikumsalam esi...")
                 try:
                   del wait2['readPoint'][msg.to]
                   del wait2['readMember'][msg.to]
@@ -1663,7 +1663,7 @@ def bot(op):
                 wait2['ROM'][msg.to] = {}
                 #print wait2
               
-            elif msg.text == "Kena":
+            elif msg.text == "Cctv":
                  if msg.from_ in admin:
                     if msg.to in wait2['readPoint']:
                         if wait2["ROM"][msg.to].items() == []:
@@ -1674,9 +1674,9 @@ def bot(op):
                                 #print rom
                                 chiya += rom[1] + "\n"
 
-                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : Ciluk BOT||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : Ciluk BOT||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n•Jones Forever\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
-                        cl.sendText(msg.to, "Ketik Cctv dulu Bieb\nBaru Ketik Ciduk\nDASAR PIKUN ♪")
+                        cl.sendText(msg.to, "Ketik Assalamualaikum dulu Esih\nBaru Ketik Cctv\nDASAR PIKUN ♪")
 #-----------------------------------------------
 
 #-----------------------------------------------
@@ -1900,7 +1900,7 @@ def bot(op):
                             pass
         #----------------Fungsi Banned Kick Target Finish----------------------#                
 
-            elif "Ready op" in msg.text:
+            elif "." in msg.text:
               if msg.from_ in owner:
                 if msg.toType == 2:
                     print "ok"
