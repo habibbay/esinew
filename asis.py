@@ -10,15 +10,15 @@ cl.login(token="EnCugJDE9UmG3Tx4cxe5.Jzp7mX9sKs1Ksb+V4dt+Tq.M/5FQ2BVRLci21F+5kJJ
 cl.loginResult()
 
 ki = LINETCR.LINE() #2
-ki.login(token="EnCugJDE9UmG3Tx4cxe5.Jzp7mX9sKs1Ksb+V4dt+Tq.M/5FQ2BVRLci21F+5kJJcuklPsbljJEiGNeExLJ2rIc=")
+ki.login(token="EnwFXavA9wzb59Rigcm7.nsfhzJDwpznnILRB7xbZnW.9Z2C2vJGLc2RlozFBQ2NR6/Tee7yvi3PRQj+SDJ0PKM=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #3
-kk.login(token="EnCugJDE9UmG3Tx4cxe5.Jzp7mX9sKs1Ksb+V4dt+Tq.M/5FQ2BVRLci21F+5kJJcuklPsbljJEiGNeExLJ2rIc=")
+kk.login(token="En6hxphShQ6m3GcTGMX6.Szf5xl0Y9zJqZvEXuVXrrG.LlchfxWIHncARPGG9sH6LC/wrY94oo8jZMtOZsG6JM0=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #4
-kc.login(token="EnDT9Iq2CZUa84QGktAf.OEkOkzOgvZEfjTXt6IvAlW.K85ozCox1Ts7uL4q+otPc0aF7JffwnVJX9555ZkRCZQ=")
+kc.login(token="EnIy5lGAFyJ9n5gdbNWe.CBkLPIwBAB+jIkfPjHHZBG.K5kaCZAaGZemv+yIDGO6WREJ77+ntZD+x3wgL1N6NxE=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #5
@@ -1900,7 +1900,7 @@ def bot(op):
                             pass
         #----------------Fungsi Banned Kick Target Finish----------------------#                
 
-            elif "." in msg.text:
+            elif "Ready op" in msg.text:
               if msg.from_ in owner:
                 if msg.toType == 2:
                     print "ok"
