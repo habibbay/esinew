@@ -10,7 +10,7 @@ cl.login(token="EnCugJDE9UmG3Tx4cxe5.Jzp7mX9sKs1Ksb+V4dt+Tq.M/5FQ2BVRLci21F+5kJJ
 cl.loginResult()
 
 ki = LINETCR.LINE() #2
-ki.login(token="EnCugJDE9UmG3Tx4cxe5.Jzp7mX9sKs1Ksb+V4dt+Tq.M/5FQ2BVRLci21F+5kJJcuklPsbljJEiGNeExLJ2rIc="")
+ki.login(token="EnCugJDE9UmG3Tx4cxe5.Jzp7mX9sKs1Ksb+V4dt+Tq.M/5FQ2BVRLci21F+5kJJcuklPsbljJEiGNeExLJ2rIc=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #3
